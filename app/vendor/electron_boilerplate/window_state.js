@@ -10,11 +10,11 @@ var jetpack = require('fs-jetpack');
 module.exports = function (name, defaults) {
 
     var userDataDir = jetpack.cwd(app.getPath('userData'));
-    var stateStoreFile = 'window-state-' + name +'.json';
+    var stateStoreFile = 'window-state-' + name + '.json';
 
     var state = userDataDir.read(stateStoreFile, 'json') || {
-        width: defaults.width,
-        height: defaults.height
+      width: defaults.width,
+      height: defaults.height,
     };
 
     var saveState = function (win) {

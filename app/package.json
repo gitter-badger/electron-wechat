@@ -1,10 +1,10 @@
 {
-  "name": "electron-boilerplate",
-  "productName": "Electron Boilerplate",
-  "identifier": "com.example.electron-boilerplate",
-  "description": "Starter for your Electron application. Out of the box ready for serious stuff.",
+  "name": "wechat",
+  "productName": "Wechat",
+  "identifier": "com.wechat.web",
+  "description": "Web Wechat webview in Electron to make it a single app",
   "version": "0.1.0",
-  "author": "Mr Gumby <gumby@sillywalks.com>",
+  "author": "Shufeng Hui <fenghhk@gmail.com>",
   "main": "background.js",
   "config": {
     "target": "development"
